@@ -1,157 +1,132 @@
 <template>
-
-    <div class='rectangle_11'>
-
-        <img src="/download_1.png">
-        <div class="frame_529">
-
-            <div class='rectangle_545'>
-            </div>
-        </div>
-
-        <div class="data_wrapper">
-            <img id="bell_logo_big" src="/bell_logo_big.png">
-
-            <div>
-                <p class="pms_wrapper">
-                <span style='color: #003D99'>P</span>roperty
-                <span style='color: #003D99'>M</span>anagement
-                <span style='color: #003D99'>S</span>ystem
-                </p>
-            </div>
-               
-            <div >
-                <input class="text-field-login" type="text" placeholder="Введите логин" >
-                <input class="text-field-password" type="text" placeholder="Введите пароль">
-            </div>  
-
-            <div>
-                <button class="btn_1">
-                    <p>Обучающие ролики</p>
-                </button>
-
-                <nuxt-link exact to="/">
-                <button class="btn_2">
-                    <p>Войти</p>
-                </button>
-                </nuxt-link>
-                
-            </div>
-            
-            
-        </div>
-    </div  >
-    
-        
-    
-</template>
-
-<script>
-export default {
-    layout: 'empty'
-}
-
-</script>
-
-<style scoped>
+    <div class="main">
+     <div class="img_wrapper">
+         <img src="/download_1.png">
+         <div class="frame_529">  
+         </div>
+         <div class='rectangle_545'>
+                 <img id="bell_logo_big" src="/bell_logo_big.png">
+                 <div>
+                     <p class="pms_wrapper">
+                     <span style='color: #003D99'>P</span>roperty
+                     <span style='color: #003D99'>M</span>anagement
+                     <span style='color: #003D99'>S</span>ystem
+                     </p>
+                 </div>
+                 <div class="input_wrapper">
+                     <input class="text-field-login" type="text" placeholder="Введите логин" >
+                     <input class="text-field-password" type="text" placeholder="Введите пароль">
+                 </div>  
+                 <div class="btn_wrapper">
+                    
+                    <nuxt-link exact to="/product_key">
+                        <button id="btn_1">
+                            <p>Обучающие ролики</p>
+                        </button>
+                    </nuxt-link>
+                 
+                 <nuxt-link exact to="/main_clone">
+                 
+                 <button id="btn_2">
+                     <p>Войти</p>
+                 </button>
+                 </nuxt-link>
+                 
+             </div>
+         </div>
+     </div>
+     </div>
+     
+ </template>
  
-button {
-    width: 180px;
-    height: 48px;
-    margin-top: 200px;
-}
-.btn_1 {
-    margin-left: 24px;
-}
-
-.btn_2 {
-    margin-left:57px;
-    background-color: #0066FF;
-    color: #FFFFFF;
-    border-radius: 8px;
-
-}
-
-.heading_3 {
-    position:fixed;
-    
-}
-
-.heading_3 p {
-    width: 158px;
-    height: 20px;
-    border: 1px solid black;
+ 
+ 
+  <style scoped>
+  p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 600px;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
-    color: #08162B; 
-}
-.rectangle_11 {
-    position:fixed;
-    width: 1600px;
-    height: 900px;
+    text-align: center;  
+  }
+ .main {
+    display: flex;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
     background-color: #091C31;
-}
- .rectangle_11 img {
-    
-    opacity: 40%;
+    align-items: center;
+    justify-content: center;
  }
-
- .frame_529{
-    position: fixed;
-    top: 242px;
-    left: 564px;
-    width: 472px;
-    height: 416px;
-    background: linear-gradient(#FFFFFF, #091C3199 60%);
-    border-radius: 8px;
+ .img_wrapper{
+    display: flex;
+    width: 100%;
+    max-height: 900px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
  }
-
-.rectangle_545 {
+ .main img {
+    display: flex;
+    height: 900px; 
+    width: 100%;
+    opacity: 40%;   
+ }
+ 
+ .frame_529 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    top: 244px;
-    left: 566px;
-    background-color:#FBFDFF;
-    opacity: 65%;
     width: 468px;
     height: 412px;
     border-radius: 8px;
+    background: 
+    linear-gradient(#FBFDFFA6, #FBFDFFA6) padding-box,
+    linear-gradient(to right,#FFFFFF, #091C3199 60%) border-box;
     border: 2px solid transparent;
-}
-.data_wrapper {
+    opacity: 65%;
+ }
+ 
+ .rectangle_545{ 
+    display: flex;
     background-color: transparent;
     position: fixed;
-    top: 242px;
-    left: 564px;
     width: 472px;
     height: 416px;
+    opacity: 1;
+    flex-direction: column;
+    align-items: center;
  }
-#bell_logo_big {
+ 
+ #bell_logo_big {
     width: 126px;
     height: 52px;
-    opacity:1;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 48px;
-    margin-left: 171px;
-}
+    opacity: 1;
+     
+     
+ }
  .pms_wrapper {
     width: 229px;
     height: 20px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-weight: 600px;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: center;
     color: #08162B;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 12px;
-    margin-left: 120px; 
- }
-
- .text-field-login {
-    position: fixed;
-    margin-top: 48px;
-    margin-left: 24px;
+    color: #08162B;
+  }
+ 
+  .input_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+     
+  }
+  .text-field-login {
     width: 420px;
     height: 48px; 
     border-radius: 8px;
@@ -164,15 +139,14 @@ button {
     border: 1px solid #D5D8DD;
     padding-left: 16px;
     outline:none;
- }
-
- .text-field-password {
+    margin-top: 48px;
+  }
+ 
+  .text-field-password {
+    margin-top: 24px;
     border: 1px solid #D5D8DD;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 6px #08162B2E;
-    position: fixed;
-    margin-top: 120px;
-    margin-left: 24px;
+    box-shadow: 0 2px 6px #08162B2E; 
     background: #FFFFFF url("/lock.png");
     background-repeat: no-repeat;
     background-position-x: 380px;
@@ -182,7 +156,34 @@ button {
     border-radius: 8px;
     padding-left: 16px;
     outline:none;
+  }
+  .btn_wrapper{
+     display: flex;
+     height: 100vh;
+     align-items: center;     
+  }
+ 
+  button {
+     width: 180px;
+     height: 48px;
+     
  }
-
-
-</style>
+ #btn_1 {
+     margin-left: 0px;
+     color: #08162B;
+ }
+ 
+ #btn_2 {
+     background-color: #0066FF;
+     color: #FFFFFF;
+     border-radius: 8px;
+     margin-left: 60px;
+ }
+ </style>
+ 
+ 
+ <script>
+ export default {
+     layout: 'empty'
+ }
+ </script>

@@ -161,7 +161,6 @@
 
       </div>
     </div> 
-
     <div class="text_area">
       <p>
         Пожалуйста, зарегистрируйте свой объект размещения для активации функций Bell PMS
@@ -183,25 +182,14 @@
   
 </template>
 
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
-
-
  <style scoped>
-
 
 .wrapper{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   background-color: FFFFFF;
   justify-content: center;
-  align-items: center;
-  
  }
 
  .layer_1 {
@@ -209,7 +197,6 @@ export default {
   width: 500px;
   height: 290px;
   margin-top: 202px;
-  border: 1px solid black;
  }
  
  .item {
@@ -229,7 +216,7 @@ export default {
   margin-top: 189.76px;
   margin-left: 474.77px;
  }
- #m_circle_three {
+#m_circle_three {
   margin-top: 25.72px;
   margin-left: 265px;
 }
@@ -376,34 +363,44 @@ export default {
 }
 
 .btn_wrapper{
+  position: absolute;
   height: 100vh;
   align-items: center;     
-  }
+}
  
 button {
   width: 180px;
-  height: 48px;  
+  height: 48px;
+  margin-top: 570px;   
  }
 
- #btn_1 {
+#btn_1 {
+  margin-left: 0px;
   color: #08162B;
  }
  
- #btn_2 {
+#btn_2 {
   background-color: #0066FF;
   color: #FFFFFF;
   border-radius: 8px;
   margin-left: 60px;
  }
 .text_area{
+  position: absolute;
   width:614px;
   height: 18px;
   font-family: 'SF Pro Display', sans-serif;
   font-weight: 500;
   font-size: 13px;
   line-height: 17.9px;
-  color:#8F97A3;
-  margin-top: 0px;    
+  color:#8F97A3;    
+  margin-top: 504px; 
 }
 
- </style>
+</style>
+
+<script>
+
+export default { 
+}
+</script>

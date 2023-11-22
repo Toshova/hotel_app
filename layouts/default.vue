@@ -1,19 +1,17 @@
 <template>
   <div>
-    <div class="side_nav"> 
+    <div class="container"> 
       <side-bar/>
-      <nav-bar/>
-    </div>
-    <div class="container">
-      <main>
+      <div class="main_wrapper"> 
+        <nav-bar/>
+
+        <main>
         <Nuxt /> 
       </main>
-    </div>
+      </div>
       
-   
-  </div>
-
-    
+    </div>   
+  </div>    
 </template>
 
 <script>
@@ -29,22 +27,23 @@ export default {
 </script>
 
 <style>
-body {
-  width: 1600px;
-  height: 900px; 
-}
-
-.side_nav {
-  display: flex;
+main{
+  border: #F0F6FF 12px solid;
 }
 
 .container {
-  position: absolute;
-  top: 64px;
-  left: 220px;
-  width:1380px;
-  height: 812px;
-  border: 12px solid #F0F6FF;
-  border-radius: 8px;
+  height: 100%; 
+  display: flex;
+}
+
+.main_wrapper {
+  height: 100%; 
+  width:100%;
+  flex-direction: row;       
+}
+
+.main_wrapper main {
+  width:100%;
+  height:100%;
 }
 </style>

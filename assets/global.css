@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Digital-7 Mono';
+	src: url('../fonts/digital-7_mono.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/digital-7_mono.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/digital-7_mono.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/digital-7_mono.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/digital-7_mono.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/digital-7_mono.svg#digital-7_mono') format('svg'); /* Chrome < 4, Legacy iOS */
+}

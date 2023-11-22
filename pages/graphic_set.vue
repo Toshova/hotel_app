@@ -1,7 +1,3 @@
 <template>
-    <h1>Graphic Set </h1>
+    <p>Graphic set</p> 
 </template>
-
-<script>
-</script>
-
