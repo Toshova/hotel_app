@@ -1,11 +1,14 @@
 <template>
-    <div class="main">
+    <div class="wrapper">
      <div class="img_wrapper">
          <img src="/download_1.png">
          <div class="frame_529">  
          </div>
          <div class='rectangle_545'>
-                 <img id="bell_logo_big" src="/bell_logo_big.png">
+            <div class="bell_wrapper" >
+                <img id="bell_logo_big" src="/bell_logo_big.png">
+            </div>
+                 
                  <div>
                      <p class="pms_wrapper">
                      <span style='color: #003D99'>P</span>roperty
@@ -25,7 +28,7 @@
                         </button>
                     </nuxt-link>
                  
-                 <nuxt-link exact to="/main_clone">
+                 <nuxt-link exact to="/">
                  
                  <button id="btn_2">
                      <p>Войти</p>
@@ -42,6 +45,7 @@
  
  
   <style scoped>
+ 
   p {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: 600px;
@@ -49,26 +53,22 @@
     line-height: 20px;
     text-align: center;  
   }
- .main {
+ .wrapper {
     display: flex;
-    width: 100%;
-    max-height: 900px;
-    height: 100%;
     background-color: #091C31;
     align-items: center;
     justify-content: center;
  }
  .img_wrapper{
-    display: flex;
-    width: 100%;
-    max-height: 900px;
+    width: 100vw;
     height: 100vh;
+    display: flex;
     align-items: center;
     justify-content: center;
  }
- .main img {
+ .wrapper img {
     display: flex;
-    height: 900px; 
+    min-height:100%;
     width: 100%;
     opacity: 40%;   
  }
@@ -98,16 +98,11 @@
     flex-direction: column;
     align-items: center;
  }
- 
- #bell_logo_big {
-    width: 126px;
-    height: 52px;
-    margin-left: auto;
-    margin-right: auto;
+ .bell_wrapper{
     margin-top: 48px;
-    opacity: 1;
-     
-     
+ }
+ #bell_logo_big {
+    opacity: 1; 
  }
  .pms_wrapper {
     width: 229px;
@@ -164,6 +159,7 @@
   }
  
   button {
+
      width: 180px;
      height: 48px;
      
@@ -177,7 +173,7 @@
      background-color: #0066FF;
      color: #FFFFFF;
      border-radius: 8px;
-     margin-left: 60px;
+     margin-left: 60px;     
  }
  </style>
  

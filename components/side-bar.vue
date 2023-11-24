@@ -20,7 +20,7 @@
         </div>
 
 
-        <div class="container">
+        <div class="items">
 
         
         <div>
@@ -155,6 +155,7 @@
   @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
   .sidebarcontainer {
     width: 220px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'SF Pro Display', sans-serif;
@@ -163,12 +164,15 @@
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
+    
   }
- .container{
+ .items{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 18px;
+   
  }
    .menubar-top {
     display: flex;
@@ -186,8 +190,8 @@
    .menubar_end {
     display: flex;
     flex-direction: column;
-    margin-bottom: 32px; 
-      
+    margin-bottom: 32px;
+    justify-content: end;   
    }
    .menubar_end svg {
     margin-top: 24px;

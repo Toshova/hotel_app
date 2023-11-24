@@ -83,9 +83,11 @@
 .wrapper{
     display:flex;
     width:100%;
-    height: 958px;
+    height:100%;
     flex-direction: column;  
-    font-family: 'SF Pro Display', sans-serif;  
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #FFFFFF;
+    border-radius: 8px;
 }
 
 p{

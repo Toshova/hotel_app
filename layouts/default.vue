@@ -1,16 +1,15 @@
 <template>
-  <div>
-    <div class="container"> 
-      <side-bar/>
-      <div class="main_wrapper"> 
-        <nav-bar/>
-
+  <div class="wrapper">  
+        <side-bar/>
+      <div class="main_wrapper">
+        <nav-bar/>   
         <main>
+          <div class="nuxt_con">
+
+          </div>
         <Nuxt /> 
       </main>
-      </div>
-      
-    </div>   
+      </div>   
   </div>    
 </template>
 
@@ -27,23 +26,24 @@ export default {
 </script>
 
 <style>
-main{
-  border: #F0F6FF 12px solid;
+.wrapper { 
+  display: flex;
+  width: 100%;
+  height: 100vh;
 }
 
-.container {
-  height: 100%; 
-  display: flex;
+main{
+  background-color: #F0F6FF;
+  border: transparent solid 12px;  
+  height: 100vh; 
+  width: 100%;
 }
 
 .main_wrapper {
-  height: 100%; 
-  width:100%;
-  flex-direction: row;       
+  display: flex;
+  flex-direction: column;  
+  width: 100%;      
 }
 
-.main_wrapper main {
-  width:100%;
-  height:100%;
-}
+
 </style>
