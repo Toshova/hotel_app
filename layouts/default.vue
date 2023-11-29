@@ -4,9 +4,6 @@
       <div class="main_wrapper">
         <nav-bar/>   
         <main>
-          <div class="nuxt_con">
-
-          </div>
         <Nuxt /> 
       </main>
       </div>   
@@ -28,21 +25,22 @@ export default {
 <style>
 .wrapper { 
   display: flex;
-  width: 100%;
-  height: 100vh;
+  width:100%; 
+  
 }
 
 main{
   background-color: #F0F6FF;
-  border: transparent solid 12px;  
-  height: 100vh; 
-  width: 100%;
+  border: transparent solid 12px;
+  
 }
 
 .main_wrapper {
   display: flex;
   flex-direction: column;  
-  width: 100%;      
+  width: 100%;
+  height:100%;
+  margin-left: 220px;     
 }
 
 

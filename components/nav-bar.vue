@@ -1,7 +1,6 @@
 <template>
-        <div class="nav_container">       
-        <button id="room_search_btn">Поиск номеров</button>
-        
+        <div class="nav_container">     
+            <button id="room_search_btn">Поиск номеров</button>
             <div class="timeblock">
                 <p>12:45</p>
             
@@ -34,15 +33,19 @@
 </template>
   
   <style scoped>
-               
+    *{
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        
+        
+    }           
    .nav_container {
         display: flex;
-        width: 100%     ;
-        height: 64px;
+        background-color: #FFFFFF;
+        min-height: 64px;
         align-items: center;
-        justify-content: center;
-        justify-content: space-between;
-        
+        justify-content: space-between;           
    }
 
     button {
@@ -59,7 +62,7 @@
     }
     
     #room_search_btn {
-        margin-left:36px;
+        margin-left: 36px;
     }
    
     .timeblock {

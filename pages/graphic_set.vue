@@ -24,7 +24,7 @@
                 </svg>
                 <div class="card_text">
                     <p class="big_digit">18</p>
-                    <p class="grey_heading">Заезжающих сегодня</p>
+                    <p class="grey s_font">Заезжающих сегодня</p>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@
                 </svg>
                 <div class="card_text">
                     <p class="big_digit">34</p>
-                    <p class="grey_heading">Выезжающих сегодня</p>
+                    <p class="grey s_font">Выезжающих сегодня</p>
                 </div>
                 
             </div>
@@ -45,7 +45,7 @@
                 </svg>
                 <div class="card_text">
                     <p class="big_digit">47</p>
-                    <p class="grey_heading">Свободных мест сегодня</p>
+                    <p class="grey s_font">Свободных мест сегодня</p>
                 </div>
                 
             </div>
@@ -56,30 +56,110 @@
                 </svg>
                 <div class="card_text">
                     <p class="big_digit">189</p>
-                    <p class="grey_heading">Проживающих сегодня</p>
+                    <p class="grey s_font">Проживающих сегодня</p>
                 </div>
                 
             </div>
         </div>
-        <div class="l_graphic">
 
+        <div class="workload_yearly">
+
+            <div class="head_section grey m_font">
+               <p>Годовая загруженность гостиницы в %</p> 
+            </div>
+
+            <div class="graphic_years xxs_font">
+                <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0L23 0C23.5523 0 24 0.447715 24 1C24 1.55228 23.5523 2 23 2H1C0.447715 2 0 1.55228 0 1Z" fill="#FFCC33"/>
+                </svg>
+                <p>2020 г</p>
+                <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0L23 0C23.5523 0 24 0.447715 24 1C24 1.55228 23.5523 2 23 2H1C0.447715 2 0 1.55228 0 1Z" fill="#0066FF"/>
+                </svg>
+                <p>2021 г</p>
+            </div>
+        
+            <div class="graphic_wrapper">
+                <div class="percent xs_font">
+                    <p>100%</p>
+                    <p>75%</p>
+                    <p>50%</p>
+                    <p>25%</p>
+                    <p>0%</p>
+                </div>
+
+            
+                <div class="graphic">
+                    <div class="dotted_wrapper">
+                        <div class="dotted">
+                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+                        </div>
+                        
+                        <div class="dotted">
+                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+                        </div>
+                        <div class="dotted">
+                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+                        </div>
+                        <div class="dotted">
+                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+                        </div>
+                        <div class="dotted">
+                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+                        </div>
+                    </div>
+            
+                    <img class="item" id="yellow_line" src="/yellow_line.png">
+                    <img class="item" id="blue_shadow" src="/blue_shadow.png">
+                    <img class="item" id="blue_line" src="/blue_line.png">
+                    <img  class="item" id="hand_icon" src="/hand.png">
+                   <img class="item" id="popover_right" src="/popover_right.png">
+                   <div class="item text_popover xxxs_font">
+                    <p>86 %</p>
+                    <p>Инос - 120 чел</p>
+                    <p>Узб - 70 чел</p>                  
+                   </div> 
+                   
+
+                    
+                    
+                </div>
+                </div>
         </div>
 
         <div class="m_graphics">
             <div class="m_graphic">
-
+                <div class="head_section grey m_font">
+                    <p>Выручка от продаж номеров</p>
+                </div>
             </div>
             <div class="m_graphic">
-
+                <div class="head_section grey m_font">
+                    <p>Месячная загруженность в %</p>
+                </div>
             </div>
         </div>
 
         <div class="m_graphics">
             <div class="m_graphic">
-
+                <div class="head_section grey m_font">
+                    <p>Соотношение резидентов и иностранцев</p>
+                </div>
             </div>
             <div class="m_graphic">
-
+                <div class="head_section grey m_font">
+                    <p>Топ 10 зарубежных государств</p>
+                </div>
             </div>
         </div>
       
@@ -90,7 +170,95 @@
 </template>
 
 <style scoped>
+.text_popover{
+    width: 80px;
+    height: 39px;
+    margin-top: 22px;
+    margin-left: 1025px;
+    background-color: transparent;
+    color:#FFFFFF
+}
+.item {
+   position: absolute;
+}
+#popover_right{
+    margin-top: 12px;
+    margin-left: 1025px;
+}
+#hand_icon {
+margin-top: 54px;
+margin-left: 870px;
+}
 
+#blue_line{
+    border: 2px;
+    margin-top: 20px;
+}
+
+#blue_shadow{
+    margin-top: 20px;
+}
+#yellow_line{
+    border: 2px;
+    margin-top: 13px;
+}
+.dotted_wrapper{
+    
+    margin-top: 9px;
+    height: 247px;
+    width: 1260px;
+}
+.graphic_years{
+    display: flex;
+    flex-direction: row; 
+    height: 18px;
+    width: 25%;
+    margin-left: 36px;
+    margin-top: 14px;
+    margin-bottom: 15px; 
+}
+
+.graphic_years svg {
+    margin-top: 8px;
+    margin-left: 48px;
+}
+
+.graphic_years p {
+    margin-left: 8px;
+}
+
+
+.dotted{
+    display: flex;
+    height: 20%;
+}
+
+.graphic_wrapper{
+    display: flex;
+    flex-direction: row; 
+    height: 311px; 
+}
+
+.graphic{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: center;  
+    width: 36px;
+    margin-left: 24px;
+    height: 100%;
+}
+.percent p {
+    margin-bottom: 44px;
+}
 .wrapper{
     background-color: #F0F6FF;
     width: 100%;
@@ -129,7 +297,7 @@ div {
      background-color: #0066FF;
      color: #FFFFFF;
      border-radius: 8px;
-     
+     margin-right: 24px;
      width: 180px;
      height: 48px;
  }
@@ -159,16 +327,38 @@ div {
     justify-content: end;
     margin-bottom: 20px;   
  }
-
-.grey_heading{
+ 
+ .xxxs_font{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+ }
+ .xxs_font {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+.xs_font {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+.s_font{
     font-weight: 500;
     font-size: 15px;
+    line-height: 20px;   
+}
+.m_font {
+    font-weight: 600;
+    font-size: 17px;
     line-height: 20px;
-    color:#8F97A3    
 }
 
-.l_graphic{
-    height: 406px;
+.grey{
+    color:#8F97A3   
+}
+.workload_yearly{
+    height: 406px;   
 }
 .m_graphics{
     width: 100%;
@@ -178,11 +368,20 @@ div {
     justify-content: space-between;
 }
 .m_graphic{
- width: 49.5%;
- height: 408px;
- 
+    width: 49.5%;
+    height: 408px;
 }
-
+.head_section{
+    display: flex;
+    border-bottom: 1px #D5D8DD solid;
+    border-radius: 0px;
+    height:48px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.head_section p{
+    margin-left: 24px;
+}
 </style>
 
 
