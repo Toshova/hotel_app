@@ -27,11 +27,13 @@ export default {
   display: flex;
   width:100%; 
   
+  
 }
 
 main{
   background-color: #F0F6FF;
   border: transparent solid 12px;
+  
   
 }
 
@@ -40,7 +42,7 @@ main{
   flex-direction: column;  
   width: 100%;
   height:100%;
-  margin-left: 220px;     
+  margin-left: 220px;  
 }
 
 

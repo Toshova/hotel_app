@@ -241,6 +241,7 @@ button {
  }
 
  .item {
+  display: flex;
   position: absolute;
  }
 

@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
 
-        <div class="print_menu">
+        <div class="print_menu  basic">
             <button class="s_btn">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 7C8.13401 7 5 10.134 5 14C5 15.1807 5.29191 16.2917 5.80709 17.2663C5.93614 17.5105 5.84284 17.813 5.59871 17.942C5.35458 18.0711 5.05205 17.9778 4.923 17.7337C4.33355 16.6185 4 15.3475 4 14C4 9.58172 7.58172 6 12 6C16.4183 6 20 9.58172 20 14C20 15.3475 19.6665 16.6185 19.077 17.7337C18.9479 17.9778 18.6454 18.0711 18.4013 17.942C18.1572 17.813 18.0639 17.5105 18.1929 17.2663C18.7081 16.2917 19 15.1807 19 14C19 10.134 15.866 7 12 7ZM7.62371 10.1707C7.80555 9.96293 8.12143 9.94187 8.32925 10.1237L12.3293 13.6237C12.5371 13.8056 12.5581 14.1214 12.3763 14.3293C12.1944 14.5371 11.8786 14.5581 11.6707 14.3763L7.67075 10.8763C7.46293 10.6944 7.44187 10.3786 7.62371 10.1707Z" fill="#0066FF"/>
@@ -17,7 +17,7 @@
             </button>
         </div>
 
-        <div class="dashboard">
+        <div class="dashboard basic">
             <div class="card">
                 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M47.4655 9.5C47.4655 8.67157 48.1371 8 48.9655 8H60.5C67.9558 8 74 14.0442 74 21.5V58.5C74 65.9558 67.9558 72 60.5 72H47.8448C47.0164 72 46.3448 71.3284 46.3448 70.5C46.3448 69.6716 47.0164 69 47.8448 69H60.5C66.299 69 71 64.299 71 58.5V21.5C71 15.701 66.299 11 60.5 11H48.9655C48.1371 11 47.4655 10.3284 47.4655 9.5ZM34.508 25.3347C35.1209 24.7773 36.0696 24.8224 36.627 25.4352L48.9546 38.9908C49.4749 39.563 49.4749 40.437 48.9546 41.0092L36.627 54.5648C36.0696 55.1776 35.1209 55.2227 34.508 54.6653C33.8951 54.1079 33.8501 53.1592 34.4075 52.5463L44.4532 41.5H7.5C6.67157 41.5 6 40.8284 6 40C6 39.1716 6.67157 38.5 7.5 38.5H44.4532L34.4075 27.4536C33.8501 26.8408 33.8951 25.8921 34.508 25.3347Z" fill="#00CC99"/>
@@ -62,13 +62,13 @@
             </div>
         </div>
 
-        <div class="workload_yearly">
+        <div class="workload_yearly basic">
 
             <div class="head_section grey m_font">
                <p>Годовая загруженность гостиницы в %</p> 
             </div>
 
-            <div class="graphic_years xxs_font">
+            <div class="l_width graphic_years xxs_font">
                 <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0L23 0C23.5523 0 24 0.447715 24 1C24 1.55228 23.5523 2 23 2H1C0.447715 2 0 1.55228 0 1Z" fill="#FFCC33"/>
                 </svg>
@@ -78,7 +78,7 @@
                 </svg>
                 <p>2021 г</p>
             </div>
-        
+
             <div class="graphic_wrapper">
                 <div class="percent xs_font">
                     <p>100%</p>
@@ -88,64 +88,287 @@
                     <p>0%</p>
                 </div>
 
-            
+                
                 <div class="graphic">
-                    <div class="dotted_wrapper">
-                        <div class="dotted">
-                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                    
+                    <div class="l_width dotted_wrapper">
+                        <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                        </svg>
+
+                        <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                        </svg>
+
+                        <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                        </svg>
+
+                        <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                        </svg>
+
+                        <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                        </svg>
+                      
+                    </div>
+
+                    <div class="lines">
+    <img class="item" id="yellow_line" src="/yellow_line.png">
+    <img class="item" id="blue_shadow" src="/blue_shadow.png">
+    <img class="item" id="blue_line" src="/blue_line.png">
+    <img  class="item" id="hand_icon" src="/hand.png">
+    <img class="item" id="popover_right" src="/popover_right.png">
+    <div class="item text_popover xxxs_font">
+        <p>86 %</p>
+        <p>Инос - 120 чел</p>
+        <p>Узб - 70 чел</p>                  
+    </div> 
+</div>
+
+                   
+            
+                    <div class="l_width graphic_footer">
+                        <div class="l_width divider">
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
                             </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+                            <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                            </svg>
+
+                            <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                            </svg>
+
                         </div>
                         
-                        <div class="dotted">
-                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
-                            </svg>
-                        </div>
-                        <div class="dotted">
-                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
-                            </svg>
-                        </div>
-                        <div class="dotted">
-                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
-                            </svg>
-                        </div>
-                        <div class="dotted">
-                            <svg width="1248" height="1" viewBox="0 0 1248 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="0.5" x2="1248" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
-                            </svg>
-                        </div>
-                    </div>
-            
-                    <img class="item" id="yellow_line" src="/yellow_line.png">
-                    <img class="item" id="blue_shadow" src="/blue_shadow.png">
-                    <img class="item" id="blue_line" src="/blue_line.png">
-                    <img  class="item" id="hand_icon" src="/hand.png">
-                   <img class="item" id="popover_right" src="/popover_right.png">
-                   <div class="item text_popover xxxs_font">
-                    <p>86 %</p>
-                    <p>Инос - 120 чел</p>
-                    <p>Узб - 70 чел</p>                  
-                   </div> 
-                   
 
-                    
+                        <div class="months xxs_font">
+                            <div class="month"><p>Январь</p></div>
+                            <div class="month"><p>Февраль</p></div>
+                            <div class="month"><p>Март</p></div>
+                            <div class="month"><p>Апрель</p></div>
+                            <div class="month"><p>Май</p></div>
+                            <div class="month"><p>Июнь</p></div>
+                            <div class="month"><p>Июль</p></div>
+                            <div class="month"><p>Август</p> </div>
+                            <div class="month"><p>Сентябрь</p></div>
+                            <div class="month"><p>Октябрь</p> </div>
+                            <div class="month"><p>Ноябрь</p></div>
+                            <div class="month"><p>Декабрь</p></div>
+                        </div>  
+
+                    </div>
                     
                 </div>
-                </div>
+            </div>
         </div>
 
-        <div class="m_graphics">
+        <div class="m_graphics basic">
             <div class="m_graphic">
                 <div class="head_section grey m_font">
                     <p>Выручка от продаж номеров</p>
+                </div>
+
+                <div class="m_width graphic_years xxs_font">
+                <p>Январь 2021</p>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.24943 6.53243L7.21333 10.6758C7.58572 11.0651 8.23981 11.1102 8.67428 10.7765C8.71456 10.7456 8.75213 10.7119 8.78666 10.6758L12.7505 6.53243C13.1229 6.14317 13.0726 5.55713 12.6382 5.22348C12.4504 5.07927 12.2112 5 11.9639 5L4.0361 5C3.46388 5 3 5.41561 3 5.9283C3 6.1499 3.08847 6.36418 3.24943 6.53243Z" fill="#08162B"/>
+                </svg>
+
+            </div>
+                <div class="graphic_wrapper">
+                    <div class="percent xs_font">
+                            <p>100%</p>
+                            <p>75%</p>
+                            <p>50%</p>
+                            <p>25%</p>
+                            <p>0%</p>
+                    </div>
+                    <div class="graphic">
+                        <div class="m_width dotted_wrapper">
+                            <svg width="564" height="1" viewBox="0 0 564 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="564" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+
+                            <svg width="564" height="1" viewBox="0 0 564 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="564" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+
+                            <svg width="564" height="1" viewBox="0 0 564 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="564" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+
+                            <svg width="564" height="1" viewBox="0 0 564 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="564" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+
+                            <svg width="564" height="1" viewBox="0 0 564 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="0.5" x2="564" y2="0.5" stroke="#D5D8DD" stroke-dasharray="8 6"/>
+                            </svg>
+
+                        </div>
+
+                    <div class="m_width graphic_footer">
+
+                    <div class="m_width divider">
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+                        <svg width="1" height="4" viewBox="0 0 1 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="4" stroke="#D5D8DD"/>
+                        </svg>
+
+                        <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" x2="0.5" y2="9" stroke="#D5D8DD"/>
+                        </svg>
+
+                    </div>
+    
+
+    <div class="months xxs_font">
+        <div class="month"><p>1 Янв</p></div>
+        <div class="month"><p>5 Янв</p></div>
+        <div class="month"><p>10 Янв</p></div>
+        <div class="month"><p>15 Янв</p></div>
+        <div class="month"><p>20 Янв</p></div>
+        <div class="month"><p>25 Янв</p></div>
+       
+    </div>  
+
+</div>
+
+
+                    </div>
+                    
                 </div>
             </div>
             <div class="m_graphic">
                 <div class="head_section grey m_font">
                     <p>Месячная загруженность в %</p>
+                </div>
+                <div class="graphic_wrapper">
+                    <div class="percent xs_font">
+                            <p>100%</p>
+                            <p>75%</p>
+                            <p>50%</p>
+                            <p>25%</p>
+                            <p>0%</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,10 +378,29 @@
                 <div class="head_section grey m_font">
                     <p>Соотношение резидентов и иностранцев</p>
                 </div>
+
+                <div class="graphic_wrapper">
+                    <div class="percent xs_font">
+                        <p>100%</p>
+                        <p>75%</p>
+                        <p>50%</p>
+                        <p>25%</p>
+                        <p>0%</p>
+                    </div>
+                </div>
             </div>
             <div class="m_graphic">
                 <div class="head_section grey m_font">
                     <p>Топ 10 зарубежных государств</p>
+                </div>
+                <div class="graphic_wrapper">
+                    <div class="percent xs_font">
+                            <p>100%</p>
+                            <p>75%</p>
+                            <p>50%</p>
+                            <p>25%</p>
+                            <p>0%</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -170,72 +412,45 @@
 </template>
 
 <style scoped>
-.text_popover{
-    width: 80px;
-    height: 39px;
-    margin-top: 22px;
-    margin-left: 1025px;
-    background-color: transparent;
-    color:#FFFFFF
-}
-.item {
-   position: absolute;
-}
-#popover_right{
-    margin-top: 12px;
-    margin-left: 1025px;
-}
-#hand_icon {
-margin-top: 54px;
-margin-left: 870px;
+
+
+.basic{
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
 }
 
-#blue_line{
-    border: 2px;
-    margin-top: 20px;
-}
 
-#blue_shadow{
-    margin-top: 20px;
-}
-#yellow_line{
-    border: 2px;
-    margin-top: 13px;
-}
-.dotted_wrapper{
-    
-    margin-top: 9px;
-    height: 247px;
+.l_width{
     width: 1260px;
 }
+.m_width {
+    width: 564px; 
+}
+
+
 .graphic_years{
     display: flex;
     flex-direction: row; 
     height: 18px;
-    width: 25%;
-    margin-left: 36px;
     margin-top: 14px;
-    margin-bottom: 15px; 
+    margin-left: 84px;
 }
 
 .graphic_years svg {
     margin-top: 8px;
-    margin-left: 48px;
+    margin-right: 8px;
 }
 
 .graphic_years p {
-    margin-left: 8px;
-}
-
-
-.dotted{
-    display: flex;
-    height: 20%;
+    margin-right: 48px;
 }
 
 .graphic_wrapper{
     display: flex;
     flex-direction: row; 
+    align-items: flex-start;
+    margin-top: 15px;
     height: 311px; 
 }
 
@@ -245,20 +460,17 @@ margin-left: 870px;
     width: 100%;
     align-items: center;
     height: 100%;
-
 }
 .percent{
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
-    text-align: center;  
     width: 36px;
     margin-left: 24px;
-    height: 100%;
+    height: 265px; 
+    justify-content: space-between;
 }
-.percent p {
-    margin-bottom: 44px;
-}
+
+
 .wrapper{
     background-color: #F0F6FF;
     width: 100%;
@@ -267,11 +479,18 @@ margin-left: 870px;
     flex-direction: column;
     font-family: 'SF Pro Display', sans-serif;
 }
-
+.dotted_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 247px;  
+    margin-top: 9px;
+}
+.m_graphics .dotted_wrapper{
+    justify-content: space-around;
+}
 div {
     background-color: #FFFFFF;
-    margin-bottom: 12px;
-    border-radius: 8px;
 }
 .print_menu{
     display: flex;
@@ -316,8 +535,6 @@ div {
     align-items: center;
     justify-content: space-around;
  }
-
-
  .big_digit{
     display: flex;
     font-weight: 600;
@@ -360,28 +577,108 @@ div {
 .workload_yearly{
     height: 406px;   
 }
+
 .m_graphics{
     width: 100%;
     height: 408px;
     display: flex;
     background-color: transparent;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
+
+
 .m_graphic{
+    display: flex;
+    flex-flow: column;
     width: 49.5%;
     height: 408px;
+}
+
+.m_graphic .dotted_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    height: 266px;
+    justify-content: space-between;
+   
 }
 .head_section{
     display: flex;
     border-bottom: 1px #D5D8DD solid;
     border-radius: 0px;
-    height:48px;
+    height: 48px;
     align-items: center;
     margin-bottom: 0;
 }
 .head_section p{
     margin-left: 24px;
 }
+
+.graphic_footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 15px;  
+}
+
+.divider{
+    display: flex;
+    min-height: 9px;
+    justify-content: space-between;
+}
+
+.months{
+    display: flex;
+    flex-direction: row;
+    min-height: 45px; 
+}
+.month{
+    width: 104px;
+    height: 18px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.lines{
+    position: absolute;
+    width: 100%;
+    height: 228px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 390px;
+}
+
+.text_popover{
+    width: 80px;
+    height: 39px;
+    margin-top: 13px;
+    margin-left: 1090px;
+    background-color: transparent;
+    color:#FFFFFF
+}
+.item {
+    position: absolute;
+}
+#popover_right{
+    margin-left: 1070px;
+    margin-top: 3px;
+}
+#hand_icon {
+    margin-left: 1047px;
+    margin-top: 46px;
+}
+
+#blue_line{
+    margin-top: 12px;
+}
+
+#blue_shadow{
+    margin-top: 12px;
+}
+
+#blue_wavy_shadow{
+    margin-top: 89px;
+}
+
 </style>
 
 

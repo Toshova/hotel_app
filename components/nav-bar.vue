@@ -37,18 +37,21 @@
         position: sticky;
         top: 0px;
         left: 0px;
-        
-        
+        background-color: #FFFFFF;
+        z-index: 2;
+
     }           
    .nav_container {
         display: flex;
-        background-color: #FFFFFF;
+        position: fixed;
+        width: 100%;
         min-height: 64px;
         align-items: center;
         justify-content: space-between;           
    }
 
     button {
+        
         width: 120px;
         height: 40px;  
         border: 1px solid #0066FF;  
