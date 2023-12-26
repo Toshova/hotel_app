@@ -23,17 +23,18 @@ export default {
 </script>
 
 <style>
+
 .wrapper { 
   display: flex;
   width:100%; 
-  
-  
+  height:max-content; 
 }
 
 main{
   background-color: #F0F6FF;
   border: transparent solid 12px;
-  
+  margin-top: 64px; 
+  height: 100%; 
   
 }
 

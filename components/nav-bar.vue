@@ -35,8 +35,8 @@
   <style scoped>
     *{
         position: sticky;
-        top: 0px;
-        left: 0px;
+        top:0;
+        left:0px;
         background-color: #FFFFFF;
         z-index: 2;
 
@@ -47,11 +47,11 @@
         width: 100%;
         min-height: 64px;
         align-items: center;
-        justify-content: space-between;           
+        justify-content: space-between;  
+                
    }
 
     button {
-        
         width: 120px;
         height: 40px;  
         border: 1px solid #0066FF;  
@@ -65,7 +65,7 @@
     }
     
     #room_search_btn {
-        margin-left: 36px;
+        margin-left: 256px;
     }
    
     .timeblock {
